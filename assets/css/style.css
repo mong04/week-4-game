@@ -15,10 +15,19 @@ img {
 	border: 2px ridge #c520b5;
 }
 
+img:hover {
+	opacity: .95;
+}
+img:active {
+	 color: rgba(255, 255, 255, 1);
+	 box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
 h1, h2, h3 {
 	font-weight: bold;
 	font-size: 30px;
 	background-color: #c8c6ec;
+	opacity: .75;
 	max-width: 275px;
 	margin-top: 10px;
 	text-align: center;
@@ -28,6 +37,7 @@ h1, h2, h3 {
 }
 
 p {
+	font-weight: bold;
     font-size: 18px;
     text-align: center;
     margin: 7px;
@@ -43,6 +53,7 @@ h1 {
 	border: none;
 }
 #instructions {
+	opacity: .75;
 	margin-top: 10px;
 	margin-right: 100px;
 	background-color: #c8c6ec;
@@ -58,6 +69,7 @@ h1 {
 #win-tracker {
 	float: left;
 	background-color: #c8c6ec;
+	opacity: .75;
 	margin-left: 25px;
 	margin-top: 10px;
 	border: 2px ridge #c520b5;
