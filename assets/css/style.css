@@ -1,0 +1,75 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url(../../assets/images/crystal-cave.png) no-repeat;
+	background-size: cover;	
+}
+
+img {
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+	border-radius: 10px;
+	border: 2px ridge #c520b5;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	font-size: 30px;
+	background-color: #c8c6ec;
+	max-width: 275px;
+	margin-top: 10px;
+	text-align: center;
+	border: 2px ridge #c520b5;
+	border-radius: 5px;
+	font-family: 'Inknut Antiqua', serif;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin: 7px;
+    padding: 3px;
+    line-height: 1.4em;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+h1 {
+	font-size: 35px;
+}
+#alert {
+	border: none;
+}
+#instructions {
+	margin-top: 10px;
+	margin-right: 100px;
+	background-color: #c8c6ec;
+	max-width: 750px;
+	border: 2px ridge #c520b5;
+}
+#goal {
+	float: left;
+}
+#goal-number {
+	height: 50px;
+}
+#win-tracker {
+	float: left;
+	background-color: #c8c6ec;
+	margin-left: 25px;
+	margin-top: 10px;
+	border: 2px ridge #c520b5;
+	border-radius: 5px;
+}
+
+#crystals {
+	clear: left;
+}
+#points {
+	height: 45px;
+}
+#scoreboard {
+	margin-top: 0px;
+}
