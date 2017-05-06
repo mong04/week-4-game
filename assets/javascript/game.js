@@ -45,7 +45,7 @@ $(document).ready(function() {
 	// generate initial values for crystals
 	assignGemValues();
 	
-	// declare variables and write to page
+	// initial declaration of variables and write to page
 	var pointGoal = getRandomValue();
 	var wins = 0;
 	var losses = 0;
